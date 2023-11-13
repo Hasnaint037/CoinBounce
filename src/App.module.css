@@ -1,0 +1,12 @@
+.container{
+  margin: 20px;
+}
+.layout{
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main{
+  /* is ka matlab hai ky baki jo elements hoon gy is ky parent mein wo content ky mutabik area ly gy aur ye jo bach jaye ga */
+  flex:1;
+}

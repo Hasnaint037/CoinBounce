@@ -1,0 +1,25 @@
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+.errorHeader{
+    color: #ea3943;
+    font-size: 52px;
+    font-weight: 600;
+}
+.errorBody{
+    font-size: 33px;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+.errorLink{
+    text-decoration: none;
+    color: #3861fb;
+}
+.errorLink:hover{
+    /* text-decoration: underline; */
+    text-decoration:2px underline #3153D7;
+}
